@@ -3,11 +3,11 @@ import { Box, Container, Link, Typography } from '@mui/material';
 const items = [
   {
     label: 'About Us',
-    href: 'https://devias.io/about-us'
+    href: '#!'
   },
   {
     label: 'Terms',
-    href: 'https://devias.io/legal/tos'
+    href: '#!'
   }
 ];
 
@@ -48,7 +48,6 @@ export const Footer = () => (
           color="text.secondary"
           href={link.href}
           key={link.label}
-          target="_blank"
           underline="none"
           variant="body2"
         >
